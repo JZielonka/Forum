@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="common" template="/WEB-INF/layout/classic.jsp">
+		<put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+		
+	</definition>
+
+	<definition name="index" extends="common">
+		<put-attribute name="title" value="My Index Page" />
+		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+	</definition>
+
+	<definition name="users" extends="common">
+		<put-attribute name="title" value="List of users:" />
+		<put-attribute name="body" value="/WEB-INF/jsp/users.jsp" />
+	</definition>
+
+	<definition name="user-detail" extends="common">
+		<put-attribute name="title" value="User Details" />
+		<put-attribute name="body" value="/WEB-INF/jsp/user-detail.jsp" />
+	</definition>
+	
+	<definition name="details" extends="common">
+		<put-attribute name="title" value="User Details" />
+		<put-attribute name="body" value="/WEB-INF/jsp/details.jsp" />
+	</definition>
+
+
+	<definition name="registration" extends="common">
+		<put-attribute name="title" value="Register" />
+		<put-attribute name="body" value="/WEB-INF/jsp/registration.jsp" />
+	</definition>
+
+	<definition name="login" extends="common">
+		<put-attribute name="title" value="login" />
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+
+
+	<definition name="forum" extends="common">
+		<put-attribute name="title" value="forum" />
+		<put-attribute name="body" value="/WEB-INF/jsp/forum.jsp" />
+	</definition>
+
+	<definition name="403" extends="common">
+		<put-attribute name="title" value="403" />
+		<put-attribute name="body" value="/WEB-INF/jsp/403.jsp" />
+	</definition>
+
+
+	<definition name="newTopic" extends="common">
+		<put-attribute name="title" value="newTopic" />
+		<put-attribute name="body" value="/WEB-INF/jsp/newTopic.jsp" />
+	</definition>
+
+	<definition name="topic" extends="common">
+		<put-attribute name="title" value="topic" />
+		<put-attribute name="body" value="/WEB-INF/jsp/topic.jsp" />
+	</definition>
+
+</tiles-definitions>

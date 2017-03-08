@@ -1,0 +1,46 @@
+
+.body
+{
+
+	background :url("images/tumblr_mcryb1vE6z1qz5ugzo1_1280.jpg")  no-repeat center center fixed;
+	  -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+}	
+
+.carousel-caption
+{
+
+	   font-style: italic;
+ 	margin: auto;
+	top:40%;
+	font-size: 400%;	
+ line-height: 120%;
+ font-weight: 200%;
+
+	 color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+span
+
+{
+
+	color: blue;
+}
+
+.container .navbar-collapse .navbar-nav li a
+{
+
+
+}
+
+.navbar-collapse, .navbar-brand
+
+{
+ 	 font-style: normal;
+	font-size: 200%;	
+
+}
+
